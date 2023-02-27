@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+	char i;
+	char j;
+	for(j=65;j<=90;j++)
+	{
+		for(i=65;i<=j;i++)
+		{
+		printf("%c ",i);
+	    }
+	    printf("\n");
+	}
+}
