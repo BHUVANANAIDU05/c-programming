@@ -1,0 +1,19 @@
+//PROGRAM TO PRINT STAR PATTERN//
+#include<stdio.h>
+main()
+{
+	int i,n=5,j,k;
+	for(i=1;i<=n;i++)
+	{
+		for(j=n-1;j>=i;j--)
+		{
+		printf(" ");
+	}
+	for(k=1;k<=i;k++)
+	{
+		printf("* ");
+	}
+	printf("\n");
+	
+}
+}
